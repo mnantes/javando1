@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>não acredito</title>
+</head>
+<body>
+<script>
+
+// nome animal
+let animal = prompt("qual seu animal favorito?");
+// idade usuario
+let numero = parseInt(prompt("qual a sua idade?"), 10);
+
+if (isNaN(numero)) {
+  console.log("não tente me confundir, eim. tente novamente, por favor!");
+} else {
+  // resposta 1
+  let mensagem = `imagine ${numero} ${animal}s dançando em uma discoteca! 🕺💃`;
+
+  // resposta idade
+  if (numero < 17) {
+    alert("¡¡¡WOW!!!, você é jovem demais para estar programando!");
+  } else if (numero > 40) {
+    alert("Impressionante! nunca é tarde para aprender algo novo! 👏👏👏");
+  }
+
+  // mensagem divertida
+  alert(mensagem);
+
+  // no console também
+  console.log(mensagem);
+}
+
+
+</script>
+
+   
+</body>
+</html>
